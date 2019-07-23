@@ -1,6 +1,6 @@
 # GEOREPR: GEOthermal Reinjection lifetime PRediction
 
-The code: GEOREPR (GEOthermal Reinjection lifetime Prediction model) is an original code that integrates all sub-models described previously, such as the idealised geothermal reservoir, hydrodynamics of injectate, heat and reactive mass transfer (including the deposition of CaSO4 due to the dissolution of CaCO3 caused by sulphuric acid), silica polymerisation and particle growth, transport of silica particles, prediction of colloidal silica stability, estimation of deposition rate and ultimately the injectivity.
+The model: GEOREPR (GEOthermal Reinjection lifetime Prediction model) is an original model that integrates the sub-models such as the idealised geothermal reservoir, hydrodynamics of injectate, heat and reactive mass transfer (including the deposition of CaSO4 due to the dissolution of CaCO3 caused by sulphuric acid), silica polymerisation and particle growth, transport of silica particles, prediction of colloidal silica stability, estimation of deposition rate and ultimately the injectivity.
 
 This model is developed to predict geothermal reinjection lifetime under user-defined geothermal conditions at an acceptable computational cost. 
 
