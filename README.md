@@ -6,7 +6,7 @@ This model is developed to predict geothermal reinjection lifetime under user-de
 
 GEOREPR has been developed in MATLAB 2018b and is offered as a free open-source code under the GNU (General Public License) from 2019, and may be developed further in the future or reprogrammed in a more open and free alternative language such as Python. The user can use, modify, and redistribute the code for commercial or non-commercial proposes.
 
-The open sourced object-oriented finite volume MATLAB toolbox, FVTool (https://github.com/simulkade/FVTool), is adopted to solve the transient convection-diffusion equations. The documentation of FVTool is reproduced below.
+The open sourced finite volume MATLAB toolbox, FVTool (https://github.com/simulkade/FVTool), is adopted to solve the transient convection-diffusion equations. The documentation of FVTool is reproduced below.
 
 # FVTool: Finite volume toy toolbox for Matlab
 
