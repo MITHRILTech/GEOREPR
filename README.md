@@ -1,3 +1,11 @@
+The code: GEOREPR (GEOthermal Reinjection lifetime Prediction model) is an original code that integrates all sub-models described previously, such as the idealised geothermal reservoir, hydrodynamics of injectate, heat and reactive mass transfer (including the deposition of CaSO4 due to the dissolution of CaCO3 caused by sulphuric acid), silica polymerisation and particle growth, transport of silica particles, prediction of colloidal silica stability, estimation of deposition rate and ultimately the injectivity.
+
+This model is developed to predict geothermal reinjection lifetime under user-defined geothermal conditions at an acceptable computational cost. 
+
+GEOREPR has been developed in MATLAB 2018b and is offered as a free open-source code under the GNU (General Public License) from 2019, and may be developed further in the future or reprogrammed in a more open and free alternative language such as Python. The user can use, modify, and redistribute the code for commercial or non-commercial proposes.
+
+The open sourced object-oriented finite volume MATLAB toolbox, FVTool (https://github.com/simulkade/FVTool), is adopted to solve the transient convection-diffusion equations. The documentation of FVTool is reproduced below.
+
 # FVTool: Finite volume toy toolbox for Matlab
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18156.svg)](http://dx.doi.org/10.5281/zenodo.18156)
