@@ -24,14 +24,14 @@ include:
   * transient term
   * Dirichlet, Neumann, Robin, and periodic boundary conditions
 
-![diffusion pde](Tests/diff_pde.jpg)
+![diffusion pde](FVTool/Tests/diff_pde.jpg)
 
 ## Which equation do you solve?
 You can solve the following PDE (or a subset of it):  
-![advection diffusion](pde.png)
+![advection diffusion](FVTool/pde.png)
 
 with the following boundary conditions:  
-![boundary condition](boundarycond.png)
+![boundary condition](FVTool/boundarycond.png)
 
 Believe it or not, the above equations describe the majority of the transport phenomena in chemical and petroleum engineering and similar fields.
 
@@ -73,7 +73,7 @@ c = solvePDE(m,M, RHSbc); % send M and RHS to the solver
 visualizeCells(c); % visualize the results
 ```
 change the third line to `m = createMesh2D(Nx,Nx, L,L);` or `m = createMesh3D(Nx,Nx,Nx, L,L,L);` and see the outcome for yourself.  
-![diff 3D](Tests/diff_pde_3d.jpg)
+![diff 3D](FVTool/Tests/diff_pde_3d.jpg)
 
 ## Examples
 There are a few simple examples in the [Tutorial](https://github.com/simulkade/FVTool/tree/master/Examples/Tutorial) folder.
