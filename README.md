@@ -28,10 +28,10 @@ include:
 
 ## Which equation do you solve?
 You can solve the following PDE (or a subset of it):  
-![advection diffusion](pde.png)
+![advection diffusion](FVTool/pde.png)
 
 with the following boundary conditions:  
-![boundary condition](boundarycond.png)
+![boundary condition](FVTool/boundarycond.png)
 
 Believe it or not, the above equations describe the majority of the transport phenomena in chemical and petroleum engineering and similar fields.
 
