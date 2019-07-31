@@ -22,7 +22,7 @@ x = [phi.domain.facecenters.x(1); phi.domain.cellcenters.x; phi.domain.facecente
 y = [phi.domain.facecenters.y(1); phi.domain.cellcenters.y; phi.domain.facecenters.y(end)];
 
 pcolor(x, y, phi.value')
-% axis equal tight
+axis equal tight
 xlabel('Cell centers [x vlaues]');
 ylabel('Cell centers [y vlaues]');
 colorbar

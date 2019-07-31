@@ -1,14 +1,14 @@
-function visualizeCells2D(phi)
+function visualizeCellsRadial2D(phi)
 %VISUALIZECELLS plots the values of cell variable phi
 %
 % SYNOPSIS:
-%   visualizeCellVectors2D(phi_cell)
+%
 %
 % PARAMETERS:
-%   phi_cell: CellVector
+%
 %
 % RETURNS:
-%   None
+%
 %
 % EXAMPLE:
 %
@@ -18,11 +18,14 @@ function visualizeCells2D(phi)
 % Copyright (c) 2012-2016 Ali Akbar Eftekhari
 % See the license file
 
+L = phi.domain.cellcenters.x(end);
 x = [phi.domain.facecenters.x(1); phi.domain.cellcenters.x; phi.domain.facecenters.x(end)];
 y = [phi.domain.facecenters.y(1); phi.domain.cellcenters.y; phi.domain.facecenters.y(end)];
-
-pcolor(x, y, phi.value')
-% axis equal tight
-xlabel('Cell centers [x vlaues]');
-ylabel('Cell centers [y vlaues]');
+[TH,R] = meshgrid(y, x);
+[X,Y] = pol2cart(TH,R);
+h = polar([0 2*pi], [0 L]);
+delete(h);
+hold on
+pcolor(X,Y,phi.value)
 colorbar
+hold off
